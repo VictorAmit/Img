@@ -4,6 +4,7 @@
   "description": "A Fastify Demo",
   "main": "app.js",
   "scripts": {
+    "dev": "vercel dev",
     "start": "fastify start app.js"
   },
   "author": "Amit Yogi <julianduquej@gmail.com>",

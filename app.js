@@ -9,7 +9,6 @@ const path = require('path')
 if(process.env.NODE_ENV !== 'production')
 fastify.register(require('fastify-error-page'))
 
-const port = process.env.PORT || 3000
 
 // Default Img
 fastify.register(fastifyStatic, {
@@ -69,13 +68,4 @@ fastify.register(fastifyStatic, {
 // Declare a route
 fastify.get('/start', async function (req, reply) {
   throw new Error('Opppps!')
-})
-
-// Run the server!
-async function start () {
-  await fastify.listen(port)
-}
-start().catch(err => {
-  fastify.log.error(err)
-  process.exit(1)
 })

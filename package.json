@@ -5,9 +5,9 @@
   "main": "server.js",
   "scripts": {
     "start": "node server",
-     "dev": "nodemon app"
+     "dev": "node app"
   },
-  "author": "Julián Duque <julianduquej@gmail.com>",
+  "author": "Amit Yogi <julianduquej@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "fastify": "^3.11.0",

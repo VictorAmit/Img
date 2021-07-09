@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "node ./app.js",
     "build": "next build",
-    "start": "cross-env NODE_ENV=production node ./app.js"
+    "start": "node ./app.js"
   },
   "author": "Amit Yogi <julianduquej@gmail.com>",
   "license": "MIT",
@@ -31,7 +31,6 @@
     "pino-pretty": "^4.3.0",
     "point-of-view": "^4.6.0",
     "under-pressure": "^5.6.0",
-    "cross-env": "^5.2.0",
     "undici": "^3.3.0"
   }
 }

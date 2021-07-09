@@ -2,12 +2,12 @@
   "name": "fastify-example",
   "version": "2.8.0",
   "description": "Example web application with Fastify",
-    "main": "app",
+    "main": "app.js",
   "scripts": {
 "prestart": "",
-    "start": "node ./app",
+    "start": "node ./app.js",
     "start:debug": "node --inspect-brk ./app",
-    "start:dev": "nodemon --watch src ./app",
+    "start:dev": "nodemon --watch src ./app.js",
     "start:simple": "node ./app-simple",
     "postinstall": "",
     "cache:cleanup": "npm cache clean --force",
@@ -92,7 +92,7 @@
   },
   "peerDependencies": {},
   "engines": {
-    "node": ">=10.13.0"
+    "node": ">=14.17.3"
   },
   "repository": {
     "type": "git",

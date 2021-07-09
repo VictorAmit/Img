@@ -92,7 +92,7 @@
   },
   "peerDependencies": {},
   "engines": {
-    "node": ">=14.17.3"
+    "node": ">=14.17.1"
   },
   "repository": {
     "type": "git",

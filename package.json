@@ -4,8 +4,7 @@
   "description": "A Fastify Demo",
   "main": "app.js",
   "scripts": {
-    "dev": "nodemon ./app.js",
-    "start": "nodemon ./app.js"
+    "start": "node ./app.js"
   },
   "author": "Amit Yogi <julianduquej@gmail.com>",
   "license": "MIT",

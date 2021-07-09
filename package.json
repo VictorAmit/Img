@@ -53,13 +53,12 @@
     "test:unit:with-snapshot": "cross-env TAP_SNAPSHOT=1 npm run test:unit",
     "test:unit:debug": "tap -T --node-arg=--inspect-brk test/*.test.js",
     "test:unit:dev": "tap -J --watch test/*.test.js",
-    "test": "npm run lint && npm run test:unit",
-    "prepublish": "npm run snyk-protect"
+    "test": "npm run lint && npm run test:unit"
   },
   "dependencies": {
     "dotenv": "^8.2.0",
     "ejs": "^2.7.4",
-"fastify": "^3.11.0",
+    "fastify": "^3.11.0",
     "fastify-autoload": "^3.4.2",
     "fastify-cli": "^2.7.0",
     "fastify-cookie": "^5.1.0",
